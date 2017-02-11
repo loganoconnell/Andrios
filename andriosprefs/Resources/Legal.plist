@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>headerCellClass</key>
+			<string>LegalHeaderCell</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>We do not in any way own any contents of Android. We are not responsible for the availability of any third-party site to which links this jailbreak tweak other than Cydia. We do not endorse or take responsibility for the contents, advertising, products or other materials made available through any third-party site. 
+We have developed this jailbreak tweak with the idea of adding similar features and style to that of the Android OS to Apple&apos;s iOS. We in no way ported, copied, or re-wrote any of Android Open Source Project. &quot;Andrios&quot; code was written purely from scratch using Objective-C, which is the primary programming language of Apple iOS.</string>
+			<key>footerAlignment</key>
+			<string>1</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string></string>
+</dict>
+</plist>

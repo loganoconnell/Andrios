@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>headerCellClass</key>
+			<string>InstructionsHeaderCell</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>• In the top &quot;date and time view&quot; of the Alternate NC, tap on the &quot;battery icon&quot; to open the Battery Usage section in the Settings app. Tap on the &quot;gear icon&quot; to quickly open the Settings app. Tap on the &quot;person icon&quot; to open the Contacts app.</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>• Swipe down on the top &quot;date and time view&quot; to activate the &quot;switches view&quot; which contains various toggles and a brightness slider.</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>• Pressing these toggles will change them to &quot;On or Off &quot; depending on the state they are currently in. </string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>• Tap on the labels underneath the toggles to launch the settings app which then goes to their respective pane. For example: Press the &quot;Wi-Fi&quot;  label in AlternateNC to open the WiFi section in the Settings app.</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>• Swipe up on the &quot;switches view&quot; anytime to dismiss it, and see your notifications.</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>• Swipe &quot;left&quot; on any notification to dismiss it, and double tap on any lockscreen notification to &quot;clear all notifications&quot;. </string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>• If you enable the &quot;clear all button&quot; in preferences, it will display a white button in the bottom right corner of the Notification Center. Tapping on this button will clear all notifications.</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string></string>
+</dict>
+</plist>

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>headerCellClass</key>
+			<string>ExtrasHeaderCell</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Enable the Android inspired lock animation when you turn off the screen.</string>
+			<key>footerAlignment</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>cellClass</key>
+			<string>customSwitch</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.orca.andrios</string>
+			<key>icon</key>
+			<string>lockAnimation.png</string>
+			<key>key</key>
+			<string>lockAnimation</string>
+			<key>label</key>
+			<string>Lock Animation</string>
+			<key>PostNotification</key>
+			<string>com.orca.andrios/saved</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Invert the colors of all iOS navigation bars.</string>
+			<key>footerAlignment</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>cellClass</key>
+			<string>customSwitch</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.orca.andrios</string>
+			<key>icon</key>
+			<string>changeNavbars.png</string>
+			<key>key</key>
+			<string>changeNavbars</string>
+			<key>label</key>
+			<string>Colored Navbars</string>
+			<key>PostNotification</key>
+			<string>com.orca.andrios/saved</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Change the status bar color in-app to white so the navigation bar colors pop.</string>
+			<key>footerAlignment</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>cellClass</key>
+			<string>customSwitch</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.orca.andrios</string>
+			<key>icon</key>
+			<string>changeStatusBarColorForNavbar.png</string>
+			<key>key</key>
+			<string>changeStatusBarColorForNavbar</string>
+			<key>label</key>
+			<string>White Status Bar</string>
+			<key>PostNotification</key>
+			<string>com.orca.andrios/saved</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Hold an empty space on the homescreen to open the app switcher.</string>
+			<key>footerAlignment</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>cellClass</key>
+			<string>customSwitch</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.orca.andrios</string>
+			<key>icon</key>
+			<string>homescreenSwitcher.png</string>
+			<key>key</key>
+			<string>homescreenSwitcher</string>
+			<key>label</key>
+			<string>Hold To Open Switcher</string>
+			<key>PostNotification</key>
+			<string>com.orca.andrios/saved</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string></string>
+</dict>
+</plist>

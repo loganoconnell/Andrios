@@ -1,0 +1,10 @@
+Package: com.orca.andrios
+Name: Andrios
+Depends: mobilesubstrate, libactivator
+Conflicts: com.jbp.ncallonly, com.intelliborn.intelliscreenx, ru.novkostya.ncsingletapclear, com.noeliel.statuspeek, com.autopear.ncdatecustomizer, org.thebigboss.nccustomizer
+Version: 0.0.1
+Architecture: iphoneos-arm
+Description: An Android-inspired experience, for iOS!
+Maintainer: BrandDev & Logan O'Connell
+Author: BrandDev & Logan O'Connell
+Section: Tweaks

@@ -1,0 +1,10 @@
+{
+	entry = {
+		bundle = andriosprefs;
+		cell = PSLinkCell;
+		detail = "andriosprefsListController";
+		icon = "andrios.png";
+		isController = 1;
+		label = Andrios;
+	};
+}

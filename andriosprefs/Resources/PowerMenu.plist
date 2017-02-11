@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>headerCellClass</key>
+			<string>PowerMenuHeaderCell</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Choose an action to show the Power Menu.</string>
+			<key>footerAlignment</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkCell</string>
+			<key>label</key>
+			<string>Activation Methods</string>
+			<key>isController</key>
+			<true/>
+			<key>bundle</key>
+			<string>LibActivator</string>
+			<key>activatorListener</key>
+			<string>com.orca.andriosmenu</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Replace the stock power down screen with the Power Menu.</string>
+			<key>footerAlignment</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>cellClass</key>
+			<string>customSwitch</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.orca.andrios</string>
+			<key>icon</key>
+			<string>replacePowerDownScreen.png</string>
+			<key>key</key>
+			<string>replacePowerDownScreen</string>
+			<key>label</key>
+			<string>Replace Power Down Screen</string>
+			<key>PostNotification</key>
+			<string>com.orca.andrios/saved</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Switch off to use KitKat style. Respring required.</string>
+			<key>footerAlignment</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>cellClass</key>
+			<string>customSwitch</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.orca.andrios</string>
+			<key>icon</key>
+			<string>newAndroid.png</string>
+			<key>key</key>
+			<string>newAndroid</string>
+			<key>label</key>
+			<string>Lollipop Style</string>
+			<key>PostNotification</key>
+			<string>com.orca.andrios/saved</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Use the minimal version of the Power Menu. Respring required.</string>
+			<key>footerAlignment</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>cellClass</key>
+			<string>customSwitch</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.orca.andrios</string>
+			<key>icon</key>
+			<string>minimalPowerMenu.png</string>
+			<key>key</key>
+			<string>minimalPowerMenu</string>
+			<key>label</key>
+			<string>Minimal Power Menu</string>
+			<key>PostNotification</key>
+			<string>com.orca.andrios/saved</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkCell</string>
+			<key>default</key>
+			<integer>1</integer>
+			<key>defaults</key>
+			<string>com.orca.andrios</string>
+			<key>detail</key>
+			<string>PMInstructionsController</string>
+			<key>icon</key>
+			<string>PMInstructions.png</string>
+			<key>label</key>
+			<string>Instructions</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string></string>
+</dict>
+</plist>
